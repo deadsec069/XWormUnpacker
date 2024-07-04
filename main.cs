@@ -9,7 +9,7 @@ internal class XwormUnpacker
     public static object Decrypt(string input)
     {
 
-        // # OLD
+
         RijndaelManaged rijndaelManaged = new RijndaelManaged();
         MD5CryptoServiceProvider md5CryptoServiceProvider = new MD5CryptoServiceProvider();
         byte[] array = new byte[32];
